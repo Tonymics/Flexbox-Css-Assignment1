@@ -25,7 +25,7 @@ body {
 .item1 {
   border-radius: 7px;
   margin: 0 auto;
-  background-color: #ff00bf;
+  background-color: #ff0095;
   width: 27vw;
   height: 10vh;
   display: flex;
@@ -89,7 +89,7 @@ p {
 
   .item1 {
     border-radius: 5px;
-    background-color: #ff00bf;
+    background-color: #ff0095;
     width: 70vw;
     height: 10vh;
     display: flex;
