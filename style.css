@@ -13,6 +13,24 @@ body {
   background-color: black;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 10vh;
+  margin: 0 auto;
+  margin-top: 3vh;
+  background: linear-gradient( 5deg, #ff0095, transparent);
+}
+
+.nav a {
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+
 .container {
   border-radius: 10px;
   width: 33vw;
@@ -78,7 +96,16 @@ p {
     background-color: black;
   }
 
+  .nav {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  height: 17vh;
+  }
+
   .container {
+    font-size: medium;
     border-radius: 7px;
     width: 80vw;
     height: 35vh;
